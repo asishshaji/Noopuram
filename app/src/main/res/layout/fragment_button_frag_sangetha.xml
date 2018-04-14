@@ -1,0 +1,423 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.co.matchboxmedia.noopuram.button_frag_sangetha">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="150sp"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ലളിത ഗാനം (ആൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ലളിത ഗാനം (പെൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ശാസ്‌ത്രീയ സംഗീതം (ആൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ശാസ്‌ത്രീയ സംഗീതം (പെൺ)" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="മാപ്പിള പാട്ട് (ഗ്രൂപ്പ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="മാപ്പിള പാട്ട് (ആണ്)" />
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="മാപ്പിള പാട്ട് (പെൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="സംഘഗാനം (ഇന്ത്യൻ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="സംഘഗാനം
+(വെസ്റ്റേൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Western Music" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="നാടോടി ഗാനം" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="സെമി ക്ലാസിക്കൽ സംഗീതം (ഹിന്ദുസ്ഥാനി)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/button_n4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="സെമി ക്ലാസിക്കൽ സംഗീതം (കർണാടിക് സംഗീതം)" />
+
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ദേശ ഭക്തി ഗാനം" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="കഥകളി സംഗീതം (ആൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="കഥകളി സംഗീതം (പെൺ)" />
+
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_12"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ഗാനമേള" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_13"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="കവിതാ പാരായണം" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_14"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ഉപകരണ സംഗീതം" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_15"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="തുകൽ വാദ്യങ്ങൾ (ഈസ്റ്റേൺ )" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_16"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="തുകൽ വാദ്യങ്ങൾ (വെസ്റ്റേൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_17"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="തന്ത്രി വാദ്യങ്ങൾ (ഈസ്റ്റേൺ )" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_18"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="തന്ത്രി വാദ്യങ്ങൾ (വെസ്റ്റേൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/button_19"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="സുഷിര വാദ്യങ്ങൾ (ഈസ്റ്റേൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_20"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="സുഷിര വാദ്യങ്ങൾ (വെസ്റ്റേൺ)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_21"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ചെണ്ട മേളം (ഗ്രൂപ്പ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_22"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="പഞ്ചവാദ്യം (ഗ്രൂപ്പ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_23"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ബാൻഡ് മേളം (ഗ്രൂപ്പ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_24"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ചെണ്ട (തായമ്പക)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_25"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="മദ്ദളം (ഗ്രൂപ്പ്)" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

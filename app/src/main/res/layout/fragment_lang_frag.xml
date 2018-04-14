@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.co.matchboxmedia.noopuram.lang_frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="മലയാളം"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="ഇംഗ്ലീഷ്"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="ഹിന്ദി"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="അറബിക്"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="ഉറുദു"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="സംസ്കൃത"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="തമിഴ്"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

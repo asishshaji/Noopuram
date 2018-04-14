@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.co.matchboxmedia.noopuram.button_frag_drama">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="നാടകം (മലയാളം)"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="നാടകം (ഇംഗ്ലീഷ്)"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="നാടകം (ഹിന്ദി )"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="നാടകം (സംസ്കൃതം )"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="Mime"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="Skit"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="കഥാപ്രസംഗം"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="Mono - Act"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="മിമിക്രി"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

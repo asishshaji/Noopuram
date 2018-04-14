@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/lin"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30sp"
+    android:background="#000"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/branch_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:background="#000"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:background="#000"
+        android:textSize="16sp" />
+
+</LinearLayout>

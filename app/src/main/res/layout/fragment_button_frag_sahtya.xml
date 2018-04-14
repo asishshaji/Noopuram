@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.co.matchboxmedia.noopuram.button_frag_sahtya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="പ്രബന്ധ രചനാ (മലയാളം / ഇംഗ്ലീഷ് / ഹിന്ദി / അറബിക് / ഉറുദു / സംസ്കൃതം / തമിഴ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="ചെറുകഥ (മലയാളം / ഇംഗ്ലീഷ് / ഹിന്ദി / അറബിക് / ഉറുദു / സംസ്കൃതം / തമിഴ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="കവിതാ രചന (മലയാളം / ഇംഗ്ലീഷ് / ഹിന്ദി / അറബിക് / ഉറുദു / സംസ്കൃതം / തമിഴ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="പ്രസംഗം (മലയാളം / ഇംഗ്ലീഷ് / ഹിന്ദി / അറബിക് / ഉറുദു / സംസ്കൃതം / തമിഴ്)" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="ക്വിസ്" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="ഡിബേറ്റ്" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="#000"
+                android:text="അക്ഷര ശ്ലോകം" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:background="#000"
+                android:text="Just A Minute" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#fff"
+                android:background="#000"
+                android:textStyle="bold"
+                android:text="കാവ്യ  കേളി" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

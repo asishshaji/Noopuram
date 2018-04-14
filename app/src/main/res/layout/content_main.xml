@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.co.matchboxmedia.noopuram.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/cardview_leaderboard"
+                android:layout_width="match_parent"
+                android:layout_height="240sp"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nirth_func"
+                tools:ignore="OnClick">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/classicaldance" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:id="@+id/nirtham_text"
+                    android:text="നൃത്തോത്സവം"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="song_func"
+                tools:ignore="OnClick">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/music" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/song_text"
+                    android:gravity="center"
+                    android:text="സംഗീതോത്സവം "
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="drama_func">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/drama" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:id="@+id/drama_text"
+                    android:text="ദൃശ്യ-നാടകോത്സവം"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="draw_func"
+                tools:ignore="OnClick">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/art" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:id="@+id/drawing_text"
+                    android:text="ചിത്രോത്സവം "
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="writing_func"
+                tools:ignore="OnClick">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/writing" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:id="@+id/writing_text"
+                    android:text="സാഹിത്യോത്സവം"
+                    android:textColor="#fff"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

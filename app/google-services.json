@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "448343268880",
+    "firebase_url": "https://noopuram-a5d12.firebaseio.com",
+    "project_id": "noopuram-a5d12",
+    "storage_bucket": "noopuram-a5d12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448343268880:android:c1b9411060ceef67",
+        "android_client_info": {
+          "package_name": "in.co.matchboxmedia.noopuram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448343268880-nlrph3d1o1qf06tlvfqpnal19g28bmh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.matchboxmedia.noopuram",
+            "certificate_hash": "6f9f09e3944bd6e0fa85ebaae9723fc397b6d1ef"
+          }
+        },
+        {
+          "client_id": "448343268880-pjktl509ap5r7ahsbuog05cjum5vkbk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3aLv3ePPucjlNBwslhKHCzkdnwNpuob0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448343268880-pjktl509ap5r7ahsbuog05cjum5vkbk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

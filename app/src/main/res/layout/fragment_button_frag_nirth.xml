@@ -1,0 +1,492 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="in.co.matchboxmedia.noopuram.button_frag_nirth">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="150sp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:overScrollMode="always"
+                android:text="കഥകളി (പെൺ)"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:overScrollMode="always"
+                android:text="കഥകളി (ആൺ)"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="കഥകളി ഗ്രൂപ്പ്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="ഭരതനാട്യം "
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="മോഹിനിയാട്ടം"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:overScrollMode="always"
+                android:text="ക്ലാസിക്കൽ ഡാൻസ്
+(കുച്ചുപ്പുടി)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/button_n2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:overScrollMode="always"
+                android:text="ക്ലാസിക്കൽ ഡാൻസ്
+(ഒഡീസ്സി)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/button_n3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:overScrollMode="always"
+                android:text="ക്ലാസിക്കൽ ഡാൻസ്
+(കഥക്)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/button_n4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:overScrollMode="always"
+                android:text="ക്ലാസിക്കൽ ഡാൻസ്
+(മണിപ്പൂരി)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="തുള്ളൽ (ഓട്ടൻതുള്ളൽ)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="തുള്ളൽ (പറയൻ തുള്ളൽ)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/button_n6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="തുള്ളൽ (ശീതങ്കൻ തുള്ളൽ) "
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="കൂടിയാട്ടം"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="ചാക്യാർ കൂത്ത്‌"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/button_n10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="നാടോടി നൃത്തം
+(ആൺ) "
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_n11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="നാടോടി നൃത്തം
+(പെൺ)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="നാടോടി നൃത്തം
+(ആൺ) ഗ്രൂപ്പ്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+            <Button
+                android:id="@+id/button_n7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="നാടോടി നൃത്തം
+(പെൺ) ഗ്രൂപ്പ്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="തിരുവാതിര കളി"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_12"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="കോൽക്കളി"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_13"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="ദഫു മുട്ട്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_14"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="ഒപ്പന"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_15"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="മാർഗ്ഗം കളി (പെൺ)"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_16"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="പരിച മുട്ട്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_17"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="പൂരക്കളി"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_18"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="കേരള നടനം"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_19"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="അറബന മുട്ട്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+
+            <Button
+                android:id="@+id/button_20"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="വട്ടപ്പാട്ട്"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_21"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="Step N Synchro"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_22"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="Theme dance"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_23"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="Nostalgia"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_24"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="Spot dance"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_25"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="Fashion Show"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/button_26"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#000"
+                android:text="Western Dance"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
